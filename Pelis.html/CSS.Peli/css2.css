@@ -1,0 +1,147 @@
+*{
+    font-family: "Nunito Sans", sans-serif;
+    color: #ffffff;
+}
+
+.body{
+    background-color: rgb(22, 20, 20);
+}
+
+header{
+    background-color: #9f3647;
+    color: #ffff;
+    font-family: "Nunito Sans", sans-serif;
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    padding-top: 10px;
+}
+
+#enlace{
+    color: #ffff;
+    text-decoration: none;
+}
+
+#banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/ImagenPelis/banner-bg.jpg");
+    background-size: cover;
+    color: white;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-position: center center;
+}
+
+.tituloPrincipal{
+    font-size: 2.5rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.subTitulo{
+    font-size: 1.5rem;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.botonRegistrarse{
+    color: #ffffff;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #9f3647;
+    padding: 1rem 2rem;
+}
+
+.buscador{
+    margin-top: 40px;
+    background-color: rgb(22, 20, 20);
+}
+
+.tituloSecciones{
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.inputBuscador{
+    border: 2px solid white;
+    border-radius: 20px;
+    color: #000000;
+    font-size: 1.2rem;
+    height: 50px;
+    margin: 20px 0px;
+    outline: none;
+    padding: 0px 20px;
+    width: 500px;
+}
+
+.buscador{
+    text-align: center;
+}
+
+.botonBuscador{
+    border: 2px solid #f4eff0;
+    border-radius: 20px;
+    color: #fff;
+    width: 100px;
+    height: 50px;
+    background-color: #9f3647;
+    margin-left: 10px;
+}
+
+
+.containerPelis {    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px
+}
+.tituloSeccion3{
+    font-size: 2.0rem;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+#pelisPrincipal {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px
+}
+
+
+.peliculas{
+    margin-top: 20px;
+    width: 200px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+}
+
+.cajaAclamadas{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    overflow-x: scroll;
+    gap: 40px;
+    padding: 40px 0;
+
+}
