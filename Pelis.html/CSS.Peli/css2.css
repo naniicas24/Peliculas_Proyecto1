@@ -25,7 +25,7 @@ header{
 }
 
 #banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/ImagenPelis/banner-bg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../ImagenPelis/banner-bg.jpg");
     background-size: cover;
     color: white;
     height: 95vh;
